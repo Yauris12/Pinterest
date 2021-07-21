@@ -236,12 +236,13 @@
                 /*BODY MAIN*/
                 
                 .container__fotografia {
-                    margin: 0;
+                    margin: 0 autou;
                     display: grid;
                     grid-template-rows: 1fr auto;
                     margin-bottom: 10px;
                     position: relative;
                     break-inside: auto;
+                    place-self: center
                 }
                 
                 .fotografia__sombra:hover {
@@ -252,6 +253,8 @@
                     grid-row: 1 / -1;
                     grid-column: 1;
                     border-radius: 1rem;
+                    margin: 0 auto;
+                    position: relative;
                 }
                 
                 .container__fotografia__btn {
@@ -277,6 +280,7 @@
                     width: 23.6rem;
                     height: 4rem;
                     align-items: center;
+                    place-self: center
                 }
                 
                 .flex__lista {
